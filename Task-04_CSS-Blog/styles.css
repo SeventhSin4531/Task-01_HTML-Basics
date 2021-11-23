@@ -7,24 +7,36 @@
     color: rgb(34, 80, 150);
     background: rgb(255, 0, 157);
 }
-header
+.content
+{
+    width: 60%;
+    border-left: 2px solid rgb(175, 2, 2);
+    padding: 0px 0 0 20px;
+    box-sizing: border-box;
+}
+.My_Blog, .Menu, .content
+{
+    float: left;
+}
+.Menu
 {
     top: 0;
     left: 0;
     width: 20%;
     height: 100%;
     color: indigo;
-    background: yellowgreen;
     box-sizing: border-box;
 }
-.Menu
+head, body
 {
-    text-align: center;
+    background: rgb(253, 253, 99);
+    color: rgb(5, 109, 36);
 }
-.content
+a:hover
 {
-    width: 60%;
-    border-left: 2px solid green;
-    padding: 20px 0 0 20px;
-    box-sizing: border-box;
+    color: rgb(160, 4, 4);
+}
+a:visited
+{
+    color: orangered;
 }
