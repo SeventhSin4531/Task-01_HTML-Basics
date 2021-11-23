@@ -1,5 +1,30 @@
 .My_Blog
 {
-    color: red;
-    background: green;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(34, 80, 150);
+    background: rgb(255, 0, 157);
+}
+header
+{
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    color: indigo;
+    background: yellowgreen;
+    box-sizing: border-box;
+}
+.Menu
+{
+    text-align: center;
+}
+.content
+{
+    width: 60%;
+    border-left: 2px solid green;
+    padding: 20px 0 0 20px;
+    box-sizing: border-box;
 }
