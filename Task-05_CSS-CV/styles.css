@@ -2,3 +2,16 @@ img
 {
     clip-path: circle(34%);
 }
+head, body
+{
+    background: rgb(233, 224, 144);
+    color: rgb(16, 44, 77);
+}
+a:visited
+{
+    color: red;
+}
+a:hover
+{
+    color: seagreen;
+}
