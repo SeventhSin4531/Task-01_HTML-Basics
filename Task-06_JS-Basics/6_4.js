@@ -3,6 +3,6 @@ let formatString = (str) => str.split('')
     .slice(0, -1);
 
 console.log("6.4. Форматирование строки");
-console.log(formatString('abcd'));
-console.log(formatString('RqaEzty'));
-console.log(formatString('cwAt'));
+console.log("Дано: abcd", "Результат:", formatString('abcd'));
+console.log("Дано: RqaEzty", "Результат:", formatString('RqaEzty'));
+console.log("Дано: cwAt", "Результат:", formatString('cwAt'));

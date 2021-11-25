@@ -4,7 +4,7 @@ function containsOnlyUniqueSymbols(text) {
 }
 
 console.log("6.4 Изограммы");
-console.log(containsOnlyUniqueSymbols("Dermatoglyphics"))
-console.log(containsOnlyUniqueSymbols("aba"))
-console.log(containsOnlyUniqueSymbols("moOse"))
-console.log(containsOnlyUniqueSymbols(""))
+console.log("Дано: Dermatoglyphics", "Результат:", containsOnlyUniqueSymbols("Dermatoglyphics"))
+console.log("Дано: abcdefg", "Результат:", containsOnlyUniqueSymbols("abcdefg"))
+console.log("Дано: abcdefga", "Результат:", containsOnlyUniqueSymbols("abcdefga"))
+console.log("Дано: _", "Результат:", containsOnlyUniqueSymbols(""))
