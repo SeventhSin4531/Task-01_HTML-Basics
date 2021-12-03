@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Task 9</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="9_1.js"></script>
+    <script src="9_2.js"></script>
+    <script src="9_3.js"></script>
+</head>
+<body>
+  
+
+    <div>
+        <h1>Генератор паролей:</h1>
+            <form>
+                <input type="text" placeholder="Длинна п-ля от 6 до 20" id="getInputVowels"/>
+                <input type="button" value="Удалить" onclick="reset()"></input>
+                <input type="button" value="Генератор паролей" onclick="getVowels()"></input>
+                <h3>Результат:</h3>
+                <div id="getResult"></div>
+            </form>
+    </div>
+    
+    <div>
+        <h1>Игра на выбывание</h1>
+            <form>
+                <input type="number" placeholder="Количество людей" id="Game_Num"/>
+                <input type="number" placeholder="Выбывает каждый" id="Game_Number"/>
+                <input type="button" value="Удалить" onclick="resetTask_9_2()"></input>
+                <input type="button" value="Определить победителя" onclick="startTask_9_2()"></input>
+                <h3>Результат:</h3>
+                <div id="Result_G"></div>
+            </form>
+    </div>
+
+    <div>
+        <h1>Бином Ньютона</h1>
+            <form>
+                <input type="number" placeholder="Степень" id="Styepen"/>
+                <input type="button" value="Удалить" onclick="resetTask_9_3()"></input>
+                <input type="button" value="Показать формулу" onclick="GetResult()"></input>
+                <h3>Результат:</h3>
+                <div id="Result"></div>
+            </form>
+    </div>
+
+</body>
+</html>

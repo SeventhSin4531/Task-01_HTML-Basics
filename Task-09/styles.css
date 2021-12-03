@@ -1,0 +1,28 @@
+body
+{
+    margin: 10px;
+    font-size: 15px;
+    background-color:rgb(179, 77, 77);
+}
+
+h1, h3
+{
+    color: rgb(120, 176, 214);
+}
+div
+{
+    border: 2px solid rgb(255, 133, 133);
+    padding: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+form
+{
+    border: 2px solid  rgb(247, 255, 133);
+    padding: 10px;
+}
+#getResult, #Result_G, #Result
+{
+    color: rgb(120, 176, 214);
+    font-size: 20px;
+}
